@@ -1,1 +1,116 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+html{
+    background-color:white;
+}
+h1{
+    text-align:center;
+    padding:3%;
+    font-size:4rem;
+    color:black;
+}
+h2{
+    font-size:2rem;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+/*Nav Bar Styles*/
+.headernavbar{
+    display:flex;
+    justify-content:space-evenly
+    
+}
+.headernavbar a{
+    display:flex;
+    background-color:BLACK;
+    color:white;
+    padding:1%;
+    font-size:1.5rem;
+    border-radius:50%;
+    text-decoration: none;
+
+
+ /*Header text styles*/   
+}
+.mysitetext{
+    text-align:center;
+    padding:3%;
+}
+.mysitetext p{
+    padding:1%;
+}
+/*background image*/
+.backimage img{
+  max-width:100%;
+  display:flex;
+  height: 30rem;
+}
+
+.backgroundimage{
+background-image: url("https://github.com/LambdaSchool/web-module-project-intro-css/blob/main/assets/header_img.jpg?raw=true");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+width:100vw;
+height:20vh;
+padding:10%;
+}
+/*4 picutre section*/
+.sectionimages{
+    display:flex;
+    flex-direction:row;
+
+}
+
+.fourimagesection div img{
+padding-top:4%;
+display:flex;
+justify-content:left;
+padding-left:2%;
+padding-bottom:2%;
+border:2px solid red;
+}
+.fourimagesection div p{
+display:flex;
+width:4rem;
+height:4rem;
+color:blue;
+border:2px solid red;
+
+}
+
+.contactmefooter a{
+    background-color:white;
+    color:black;
+    padding:1%;
+    margin-top:25%;
+    font-size:1.5rem;
+    text-decoration: none;
+    text-align:center;
+    border:2px solid red;
+     
+
+}
