@@ -79,24 +79,22 @@ height:20vh;
 padding:10%;
 }
 /*4 picutre section*/
-.sectionimages{
-    display:flex;
-    flex-direction:row;
 
-}
-
-.fourimagesection div img{
-padding-top:4%;
-display:flex;
+.fourimagesection .fourimages img{
+display:inline-flex;
 flex-direction:row;
-border:2px solid red;
+justify-content:space-between;
+margin-left:10%;
+width:10%;
+padding-top:3%;
 }
 .fourimagesection div p{
 display:flex;
-flex-direction:row;
+justify-content:center;
 flex-wrap:none;
 align-self:baseline;
-color:blue;
+color:black;
+align-items: flex-start;
 
 
 }
