@@ -80,24 +80,28 @@ padding:10%;
 }
 /*4 picutre section*/
 
-.fourimagesection .fourimages img{
-display:inline-flex;
-flex-direction:row;
-justify-content:space-between;
-margin-left:10%;
-width:10%;
-padding-top:3%;
-}
-.fourimagesection div p{
-display:flex;
-justify-content:center;
-flex-wrap:none;
-align-self:baseline;
-color:black;
-align-items: flex-start;
-
+.imagesection1{
+   
+    display:flex;
+    justify-content:space-evenly;
+    padding-top:5%;
 
 }
+.imagesection2{
+   
+    display:flex;
+    justify-content:space-evenly;
+    padding-top:5%;
+
+}
+.text p{
+    text-align:center;
+    padding-top:6%;
+    font-size:1.5rem;
+}
+
+
+
 .contactmefooter{
 padding:5%;
 text-align:center;
@@ -116,3 +120,4 @@ text-align:center;
      
 
 }
+/**/
